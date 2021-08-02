@@ -1,20 +1,20 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Blog = ({blog, setPage}) =>{
    
     return (
         <>
             <div className='col-xs-12 col-md-4'>
                 <div className="row">
-                    <img src="images/blog2.jpg" width="90%" />
+                    <img src={blog.img} width="90%" height="80%" />
                 </div>
                 <div className="row">
                     <div className="blog-text">
                         <h3></h3>
-                        <h4>BY:{blog.author} - <i class="fa fa-calendar">MAR 23, 2021</i> - <i class="fa fa-eye">30</i></h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</p>
-                        <button class="btn btn-info" onClick={() => setPage(blog.id)}>READ MORE</button>
-                       
+                        <h4>BY:{blog.author} - <i class="fa fa-calendar">{blog.date}</i> - <i class="fa fa-eye">30</i></h4>
+                        <p>{blog.description}</p>
+                        {/* <button class="btn btn-info" onClick={() => setPage(blog.id)}>READ MORE</button> */}
+                       <Link to={`/blog/${blog.id}`}><button class="btn btn-info" >READ MORE</button></Link>
                     </div>
                 </div>
              </div>

@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Header(props) {
     return (
         <div>
@@ -24,7 +19,7 @@ function Header(props) {
                     <span className='icon-bar'></span>{' '}
                 </button>
                 
-                <img src="images/Khua_Blog_Logo.png" style={{ height: '120px',  marginLeft: '20px' }} />
+                <img src="images/Khua_Blog_Logo2.png" style={{ height: '80px',  marginLeft: '20px' }} />
                 
                 </div>
 
@@ -34,16 +29,12 @@ function Header(props) {
                 >
                 <ul className='nav navbar-nav navbar-right'>
                     <li>
-                        <Link className='page-scroll' to="/">Home</Link>
-                    {/* <a href='#home' className='page-scroll'>
-                        
-                    </a> */}
+                        <Link  to="/">Home</Link>
                     </li>
                     <li>
-                        <Link className='page-scroll' to="/about">About</Link>
-                    {/* <a href='#about' className='page-scroll'>
+                    <a href='#about' className='page-scroll'>
                         About
-                    </a> */}
+                    </a>
                     </li>
                     <li>
                     <a href='#blog' className='page-scroll'>
@@ -51,9 +42,7 @@ function Header(props) {
                     </a>
                     </li>
                     <li>
-                    <a href='#contact' className='page-scroll'>
-                        Contact
-                    </a>
+                        <Link  to="/contact">Contact</Link>
                     </li>          
                 </ul>
                 </div>

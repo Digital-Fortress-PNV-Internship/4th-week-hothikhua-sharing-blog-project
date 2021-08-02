@@ -2,30 +2,33 @@
     "blog":[
         {
             "id":1,
-            "author":"KHUA",
-            "img":"images/blog2.jpg",
-            "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...",
-            "content":"Hij klkdf kdsf",
-            "category":"Travel",
-            "date":"MAR 23, 2021"
+            "title":"[Review] Chú bé mang pyjama sọc",
+            "author":"Nguyên-Kan",
+            "img":"images/blog5.jpg",
+            "description":"Mình đọc cuốn sách này trong kỳ nghỉ hè. Đọc xong thì sốc mất mấy ngày chả làm được việc gì nên hồn. Đây chính là hậu quả của việc mình không bao giờ đọc review được khi đọc sách. Nếu biết buồn đã chả đọc....",
+            "content":"Mình đọc cuốn sách này trong kỳ nghỉ hè. Đọc xong thì sốc mất mấy ngày chả làm được việc gì nên hồn. Đây chính là hậu quả của việc mình không bao giờ đọc review được khi đọc sách. Nếu biết buồn đã chả đọc. Nhưng có cái tính lạ là đọc xong lại thích viết review cơ. Chú bé mang pyjama sọc là một cuốn tiểu thuyết (được phân loại là) thiếu nhi, do nhà văn người Ireland John Boyne chấp bút. Người kể chuyện là 1 câu bé người Đức 9 tuổi tên là Bruno. Cậu được sinh ra và lớn lên trong 1 gia đình khá giả tại Berlin. Nhà cậu có 5 tầng lầu, có kể hầu người hạ. Chị gái cậu có rất nhiều búp bê (một biểu hiện của sự giàu có?). Bố cậu nghiêm khắc nhưng được nhiều người kính trọng. Mẹ cậu có vẻ là một người phụ nữ hiền lành, và có phần chiều chuộng con cái. Câu chuyện bắt đầu bằng 1 thay đổi lớn trong gia đình Bruno: cả nhà sẽ phải chuyển đến 1 nơi mới, một nơi nào đó tên là Ao Tuýt. Dĩ nhiên bọn trẻ con không thích sự thay đổi. Vì chúng sẽ phải xa bạn bè, xa với những thứ quen thuộc, nhất là sự quen thuộc đó đem lại nhiều sự thoải mái hơn những gì đang chờ chúng ở phía trước. Qua con mắt của Bruno, ta (với hiểu biết của một người đủ lớn) dần dần nhận ra nơi mà gia đình cậu chuyển đến là nơi nào, bố cậu đang làm nhiệm vụ gì, phản ứng của từng thành viên trong gia đình về cuộc sống ở vùng đất mới. Bằng kinh nghiệm và hiểu biết của một người lớn, ta biết đây là một nơi chẳng lấy gì làm vui vẻ. Nhưng qua con mắt ngây thơ của một đứa bé 9 tuổi, mọi sự khắc nghiệt cũng trở nên đơn giản hơn. Rõ ràng là Bruno không thích nơi này. Có quá nhiều điều kỳ lạ, nhiều thứ khiến cậu không cảm thấy thoải mái và cậu liên tục đòi về Berlin. Nhưng với bản tính tò mò hiếu động của một đứa trẻ con, Bruno đời nào chịu ngồi yên mãi một chỗ chỉ để rên rỉ. Cậu quyết định khám phá tới phía hàng rào gai nơi có nhiều đứa trẻ mặc đồ sọc (cậu không hiểu sao bọn nó lại cứ chỉ mặc một bộ mãi như thế). Cũng nhờ vậy mà Bruno quen Shmuel và một tình bạn trong trẻo, hồn nhiên bắt đầu, bất chấp hàng rào gai ngăn cách và biết bao nhiêu sự khác biệt giữa hai đứa. Có thể, tình bạn đó sẽ kết thúc khi Bruno cùng mẹ và chị gái quay lại Berlin. Hẳn mẹ của Bruno đã phải đấu tranh rất nhiều để được phép đưa hai con quay lại chốn cũ. Với bà , Ao Tuýt không phải là nơi để nuôi dạy những đứa trẻ. Trước khi quay về, vì một lời hứa tình bạn, Bruno đã bước qua hàng rào gai, cuối cùng đã cầm tay người bạn Shmuel đi về một nơi ấm áp. Sau đó không còn ai biết được tin tức gì về Bruno nữa. Câu chuyện là thế đấy. Tiểu thuyết cho thiếu nhi mà thế đấy. Có ức không cơ chứ. Tốn của tôi bao nước mắt.",
+            "category":"Tản mạn, tự sự",
+            "date":"JUlY 31, 2021"
         },
         {
             "id":2,
-            "author":"LUONG",
-            "img":"",
-            "description":"",
-            "content":"",
-            "category":"Travel",
-            "date":""
+            "title":"HIỂU VS KHÔNG HIỂU",
+            "author":"ST",
+            "img":"images/blog4.jpg",
+            "description":"Khi bạn đi làm muộn 1 phút, bạn nói do tắc đường, hiểu được cho bạn không ? Được ! Khi bạn nói không được khỏe lắm, xin nghỉ 1 ngày, hiểu được cho bạn được không ?  - Được ! Khi bạn nói tâm trạng không được tốt, không muốn làm việc...",
+            "content":"Khi bạn đi làm muộn 1 phút, bạn nói do tắc đường, hiểu được cho bạn không ?- Được ! Khi bạn nói không được khỏe lắm, xin nghỉ 1 ngày, hiểu được cho bạn được không ?  - Được ! Khi bạn nói tâm trạng không được tốt, không muốn làm việc, hiểu cho bạn được không ? - Được ! Khi bạn nói làm việc mệt quá, muốn chơi game giải trí, hiểu cho bạn được không ? - Được ! Khi bạn trách đi làm sớm, nghỉ làm muộn, muốn được đi muộn, về sớm chút, hiểu cho bạn được không ? - Được ! Khi bạn muộn máy bay 1 phút, máy bay đã cất cánh. Bạn hét lên với máy bay là: tắc đường, tại sao không hiểu cho tôi ? Máy bay: không hiểu. Khi bố mẹ ở nhà ốm, nhập viện, bạn không có tiền, đi hỏi bác sĩ, hiểu cho tôi khó khăn chi trả viện phí. Bênh viện: không hiểu. Khi bạn nhìn thấy người đồng nghiệp cùng mình vào công ty làm mua nhà, mua xe. Bạn nói giá nhà bây giờ đắt thế này cơ à ? Môi giới gì mà đắt thế ? Công ty nhà đất: không hiểu.",
+            "category":"Tự sự",
+            "date":"JUNE 10, 2020"
         },
         {
             "id":3,
-            "author":"DA NI",
-            "img":"",
-            "description":"",
-            "content":"",
-            "category":"Travel",
-            "date":""
+            "title":"CÔ ĐƠN",
+            "author":"Mr. DO",
+            "img":"images/blog3.png",
+            "description":"Nếu có một thời điểm nào đó trong cuộc sống, mà chúng ta cần phải và nên bị dúi xuống bùn lầy tăm tối, tốt nhất hãy chọn lúc 18-25 tuổi, lúc mà bạn có cả sức khoẻ lẫn sự dẻo dai; cả hưng phấn lấn thất vọng; cả niềm tin sắt đã lẫn sự ngoan cố mù quáng;",
+            "content":"Nếu có một thời điểm nào đó trong cuộc sống, mà chúng ta cần phải và nên bị dúi xuống bùn lầy tăm tối, tốt nhất hãy chọn lúc 18-25 tuổi, lúc mà bạn có cả sức khoẻ lẫn sự dẻo dai; cả hưng phấn lấn thất vọng; cả niềm tin sắt đã lẫn sự ngoan cố mù quáng; cả sự hiểu biết bằng bản năng và trực giác chưa bị pha tạp lẫn sự tăm tối vì mơ hồ nhận thấy những lực cản của xã hội. Nghĩa là có tất cả mà lại chẳng có gì vững chắc. Lúc ấy là lúc có cả một tiềm năng - cái năng lực tiềm ẩn trong từng cử động, từng quyết định nhỏ, cái khả năng có thể nhảy rất dài, vượt rất xa, thay đổi cả thế giới; hoặc là cái nguy cơ trượt xa khôn cùng xuống vực sâu của tăm tối, kiệt quệ, u uất và rệu rã. Tuổi trẻ - tự bản thân nó đã là một tài sản, tự bản thân nó đã hàm chữa ánh sáng và hạnh phúc, khi bị dúi xuống bùn, cơ hội để nó vẫn toả sáng và thăng hoa sẽ lớn hơn so với khi bạn già đi. Lúc đó là lúc phép thử còn mầu nhiệm, con tốt đỏ trong tay có thể còn phong Hậu; bạn có thời gian làm hậu thuẫn và chân trời vẫn còn gợi nhiều thôi thúc. Còn khi bạn đã lớn tuổi hơn, những xây xước đằng trước sẽ làm cho bạn ngần ngại, nếu bạn bị dúi xuống bùn thì rất có thể bạn sẽ tặc lưỡi nằm đó một mình, hoặc sẽ cố gắng vùng vẫy sao cho người khác cũng vấy bẩn lem luốc giống với bạn. Tuổi trẻ có một thứ vốn ngầm rất đáng quý mà không phải ai cũng biết: sự cô đơn. Trái tim là một giống loài dễ hư hỏng. Nếu nó được no đủ, nó sẽ đổ đốn ngay lập tức. Hạnh phúc làm cho con người ta mềm yếu, người ta vui tươi với mọi thứ, người ta quên mất việc phải làm, người ta còn bắt đầu tặc lưỡi nhiều hơn với những thói quen xấu. Tình yêu là một giống dây leo khó chiều. Nó cần được thử thách và bị tấn công. Nếu bạn mớm cơm cho nó hàng ngày, chăm sóc nó quá no đủ, nó sẽ chết yểu. Cô đơn ơi, tên của mi hàm chứa nghị lực. Nhưng sự cô đơn này không đơn thuần là “một mình” theo nghĩa đen của đúng từ này. Cô đơn là một trang thái tổng hoà rất đặc trưng của tuổi trẻ. Cô đơn vì thấy mình quá bé nhỏ, và ngộp thở trước sự rộng lớn của vũ trụ, của hàng hà tinh tú trên đầu mỗi đêm hè ta ngẩng lên. Cô đơn vì thấy mình bất lực trước một sinh vật ngang bằng mình, tồn tại cạnh mình, cần cho mình mà mình không sao sở hữu nổi nó. Cô đơn vì thấy có quá nhiều tiếng gọi mà không biết sẽ đi đâu. Cô đơn vị sự giằng xé giữa những ước mơ thời bé và những thực tế vừa mới đến. Cô đơn vì vừa buồn bã, vừa kiêu hãnh và khoái trá đi lại tung tăng, ngạo ngược trong thế giới riêng của mình, chỉ thỉnh thoảng hào phóng mời vào một hai vị khách, rồi lại mời họ ra ngoài để ta đóng cửa lại. “Hạnh phúc làm con người mềm yếu và quên mất việc phải làm”. Rất nhiều người đã nói thế. Rất nhiều người đã được dạy cần cảnh giác với hạnh phúc. Nhưng “việc phải làm” ấy là để làm gì, nếu không phải để mang lại hạnh phúc? Và mục đích cuối cùng của mọi việc là gì nếu không phải hạnh phúc? Vì thế có lẽ chăng nên nuôi dưỡng trái tim như nuôi con mèo dùng vào việc bắt chuột: để mặc nó đói, nó sẽ phải tìm đường săn mồi. Con mèo đói đến lúc săn được mồi đã quá hao sức vào việc săn, đã quá đói, nên nuốt vội con chuột mà quên mất hưởng thụ thành quả. Và con chuột (hạnh phúc) chui tuột vào dạ dày mà chẳng để lại dư vị gì. Trái tim là một con mèo, đừng thử thách hay tấn công nó nhiều quá. Nó sẽ tự tìm được một khoảnh sân để duỗi dài sưởi nắng.Trong cái sân nắng ây, có lẽ cô đơn không phải là người bạn tốt. ...",
+            "category":"Tự sự",
+            "date":"2009"
         }
     ],
     "comments":[

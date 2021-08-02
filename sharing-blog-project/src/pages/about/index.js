@@ -12,8 +12,9 @@ function index(props) {
             <div className='col-xs-12 col-md-6'>
               <div className='about-text'>
                 <h2>About Us</h2>
-                <p>We often receive the story that you want to share</p>
-                {/* <p>{props.data ? props.data.paragraph : 'loading...'}</p> */}
+                <h4>We'll be open to stories that you want to share.</h4>
+                <h3>Why should you choose us as the place to send your stories?</h3>
+                <h4>Our website is a convergence of good and popular blogs. Your story will be known by many people. From there you can also find a companion to your story.</h4>
                 
               </div>
             </div>

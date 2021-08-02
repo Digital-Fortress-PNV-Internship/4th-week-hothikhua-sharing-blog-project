@@ -241,6 +241,14 @@ header .intro-text {
 	width: 90%;
     text-align: justify;
 }
+/*Blog detail */
+#blogdetail .detail {
+	text-align: justify;
+}
+#blogdetail .detail h2{
+	color:chocolate;
+}
+
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
@@ -371,7 +379,9 @@ color: #777;
 /*Footer*/
 
 #footer{
-    text-align: justify;
+
+	color:white;
+    text-align: center;
     margin-top: 5em;
     padding-bottom: 10px ;
     background-color: #555;

@@ -8,9 +8,9 @@ import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+import IndexContact from './pages/contact';
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -18,20 +18,23 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App"> 
         <Header/>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/about">
-            <Home />
+          <Route path="/blog/:id">
+            <BlogDetail/>
+          </Route>
+          <Route path="/contact">
+            <IndexContact />
           </Route>
         </Switch>
-        <Footer/>
-      </Router>
-    </div>
+        <Footer/>  
+      </div>
+  </Router>
   );
 }
 
