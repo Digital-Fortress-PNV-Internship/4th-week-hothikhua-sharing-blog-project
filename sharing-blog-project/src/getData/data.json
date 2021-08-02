@@ -1,0 +1,67 @@
+{
+    "blog":[
+        {
+            "id":1,
+            "author":"KHUA",
+            "img":"images/blog2.jpg",
+            "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...",
+            "content":"Hij klkdf kdsf",
+            "category":"Travel",
+            "date":"MAR 23, 2021"
+        },
+        {
+            "id":2,
+            "author":"LUONG",
+            "img":"",
+            "description":"",
+            "content":"",
+            "category":"Travel",
+            "date":""
+        },
+        {
+            "id":3,
+            "author":"DA NI",
+            "img":"",
+            "description":"",
+            "content":"",
+            "category":"Travel",
+            "date":""
+        }
+    ],
+    "comments":[
+        {
+            "id":1,
+            "id_author":1,
+            "content":"",
+            "datetime":""
+        },
+        {
+            "id":2,
+            "id_author":1,
+            "content":"",
+            "datetime":""
+        },
+        {
+            "id":3,
+            "id_author":1,
+            "content":"",
+            "datetime":""
+        }
+    ],
+    "like":[
+        {
+            "id":1,
+            "id_author":1,
+            "total":0,
+            "datetime":""
+        }
+    ],
+    "view":[
+        {
+            "id":1,
+            "id_author":1,
+            "total":0,
+            "datetime":""
+        }
+    ]
+}

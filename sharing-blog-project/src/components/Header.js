@@ -1,5 +1,10 @@
 import React from 'react';
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 function Header(props) {
     return (
         <div>
@@ -19,7 +24,7 @@ function Header(props) {
                     <span className='icon-bar'></span>{' '}
                 </button>
                 
-                <img src="images/blog_logo.png" style={{ height: '60px', marginTop: '10px', marginBottom: '10px', marginLeft: '20px' }} />
+                <img src="images/Khua_Blog_Logo.png" style={{ height: '120px',  marginLeft: '20px' }} />
                 
                 </div>
 
@@ -29,41 +34,27 @@ function Header(props) {
                 >
                 <ul className='nav navbar-nav navbar-right'>
                     <li>
-                    <a href='#features' className='page-scroll'>
-                        Home
-                    </a>
+                        <Link className='page-scroll' to="/">Home</Link>
+                    {/* <a href='#home' className='page-scroll'>
+                        
+                    </a> */}
                     </li>
                     <li>
-                    <a href='#about' className='page-scroll'>
+                        <Link className='page-scroll' to="/about">About</Link>
+                    {/* <a href='#about' className='page-scroll'>
                         About
-                    </a>
+                    </a> */}
                     </li>
                     <li>
-                    <a href='#services' className='page-scroll'>
-                        Service
-                    </a>
-                    </li>
-                    <li>
-                    <a href='#portfolio' className='page-scroll'>
-                        Post
-                    </a>
-                    </li>
-                    <li>
-                    <a href='#testimonials' className='page-scroll'>
-                        Activities
-                    </a>
-                    </li>
-                    <li>
-                    <a href='#team' className='page-scroll'>
-                        Contact
+                    <a href='#blog' className='page-scroll'>
+                        Blog
                     </a>
                     </li>
                     <li>
                     <a href='#contact' className='page-scroll'>
-                        Team
+                        Contact
                     </a>
-                    </li>
-                    
+                    </li>          
                 </ul>
                 </div>
             </div>
