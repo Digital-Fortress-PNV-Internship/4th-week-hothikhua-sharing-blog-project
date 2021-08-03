@@ -1,4 +1,6 @@
-
+* {
+	font-family: Verdana;
+}
 /* Menu */
 #menu {
 	padding: 15px;
@@ -181,6 +183,7 @@ header .intro-text {
 	padding: 100px 0;
 }
 #about h3 {
+	color:chocolate;
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
@@ -198,19 +201,9 @@ header .intro-text {
 	bottom: 0;
 	left: 0;
 }
-#about .about-text li {
-	margin-bottom: 6px;
-	margin-left: 6px;
-	list-style: none;
-	padding: 0;
-}
-#about .about-text li:before {
-	content: '\f00c';
-	font-family: 'FontAwesome';
-	color: #5ca9fb;
-	font-size: 11px;
-	font-weight: 300;
-	padding-right: 8px;
+#about .about-text {
+	margin-left: 5em;
+
 }
 #about img {
 	width: 520px;
@@ -222,6 +215,7 @@ header .intro-text {
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
+	text-align: justify;
 }
 @media (max-width: 768px) {
     #about img {
@@ -242,11 +236,18 @@ header .intro-text {
     text-align: justify;
 }
 /*Blog detail */
+#blogdetail {
+	margin-top: 10em;
+}
 #blogdetail .detail {
 	text-align: justify;
 }
 #blogdetail .detail h2{
+	text-align: center;
 	color:chocolate;
+}
+a:hover {
+	cursor: pointer;
 }
 
 /* Contact Section */
@@ -299,12 +300,11 @@ header .intro-text {
 	color: #1f386e;
 	background: #fff;
 }
-label {
+/* label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
 	float: left;
-}
+} */
 #contact .form-control {
 	display: block;
 	width: 100%;
@@ -376,8 +376,39 @@ color: #777;
 	background: #fff;
 }
 
-/*Footer*/
+/*Register - login*/
+#register {
+	background-color: #ddd;
+}
+#login{
+	background-color: #ddd;
+}
+#register label {
+	display: block;
+	margin-top: 10px;
+  }
+  
+  .card-container.card {
+	max-width: 350px !important;
+	padding: 40px 40px;
+  }
+  
+  .card {
+	background-color: #f7f7f7;
+	padding: 20px 25px 30px;
+	margin: 0 auto 25px;
+	margin-top: 50px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
 
+
+/*Footer*/
 #footer{
 
 	color:white;
