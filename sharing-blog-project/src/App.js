@@ -1,3 +1,4 @@
+import React, { useState, useEffect, useCallback } from "react";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import './App.css';
@@ -16,7 +17,9 @@ import {clearMessage} from "./redux/actions/message";
 
 import { history } from "./redux/helpers/history";
 import { useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
+
+
+import EventBus from "./redux/common/EvenBus";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -25,22 +28,36 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () =>{
 
-  const {user: currentUser} = useSelector((state) => state.auth);
+  const { user: currentUser } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
 
-  useEffect(()=>{
+  useEffect(() => {
     history.listen((location) => {
-      dispatch(clearMessage()); //clear message when changing location
+      dispatch(clearMessage()); // clear message when changing location
     });
   }, [dispatch]);
 
-  const logOut = () => {
+  const logOut = useCallback(() => {
     dispatch(logout());
-  }
+  }, [dispatch]);
+
+  useEffect(() => {
+   
+    EventBus.on("logout", () => {
+      logOut();
+    });
+
+    return () => {
+      EventBus.remove("logout");
+    };
+  }, [currentUser, logOut]);
+
+  
+  
   return (
     <Router history={history}>
       <div className="App"> 
-        <Header/>
+        <Header logOut={logOut}/>
         <Switch>
           <Route exact path="/">
             <Home />

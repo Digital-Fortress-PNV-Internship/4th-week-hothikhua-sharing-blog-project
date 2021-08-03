@@ -7,6 +7,7 @@ import CheckButton from "react-validation/build/button";
 import { isEmail } from "validator";
 
 import {register} from '../redux/actions/auth';
+import IndexLogin from '../pages/login';
 
 const required = (value) => {
     if (!value) {
@@ -201,7 +202,7 @@ const Register = () => {
   
             {message && (
               <div className="form-group">
-                <div className={ successful ? "alert alert-success" : "alert alert-danger" } role="alert">
+                <div className={ successful ? <IndexLogin/> : "alert alert-danger" } role="alert">
                   {message}
                 </div>
               </div>

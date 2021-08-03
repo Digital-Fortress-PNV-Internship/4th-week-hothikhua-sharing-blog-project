@@ -1,6 +1,16 @@
-import React from 'react';
-import { Link } from "react-router-dom";
-function Header(props) {
+import React, {useState} from 'react';
+import { Link, Redirect } from "react-router-dom";
+import { useSelector } from "react-redux";
+
+const Header = ({logOut}) => {
+
+    const { user: currentUser } = useSelector((state) => state.auth);
+
+    let [page, setPage] = useState("null");
+
+    if (!currentUser) {
+        return <Redirect to="/login" />;
+    }
     return (
         <div>
             <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -44,12 +54,22 @@ function Header(props) {
                     <li>
                         <Link  to="/contact">Contact</Link>
                     </li>  
-                    <li>
-                        <Link  to="/register">Register</Link>
-                    </li>    
-                    <li>
-                        <Link  to="/login">Login</Link>
-                    </li>        
+                    { page != "null" ?
+                     <>
+                        <li>
+                            <Link to="/register">Register</Link>
+                        </li>
+                        <li>
+                            <Link  to="/login">Login</Link>
+                        </li> 
+                     </> 
+                     : < > 
+                            <li><a><i class="fa fa-user-circle-o"> {currentUser.username}</i></a></li>
+                            <li>
+                                <a  to="/logout" onClick={logOut}>Logout</a>
+                            </li> 
+                        </>        
+                     }
                 </ul>
                 </div>
             </div>
