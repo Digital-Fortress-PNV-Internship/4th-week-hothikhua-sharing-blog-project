@@ -85,6 +85,46 @@
       "username": "Huou Ho",
       "password": "12345678",
       "id": 12
+    },
+    {
+      "username": "Khua",
+      "password": "12345678",
+      "id": 13
+    },
+    {
+      "username": "Huou Ho",
+      "password": "12345678",
+      "id": 14
+    },
+    {
+      "username": "Huou Ho",
+      "password": "12345678",
+      "id": 15
+    },
+    {
+      "username": "Huou Ho",
+      "password": "12345678",
+      "id": 16
+    },
+    {
+      "username": "Huou Ho",
+      "password": "12345678",
+      "id": 17
+    },
+    {
+      "username": "Huou Ho",
+      "password": "12345678",
+      "id": 18
+    },
+    {
+      "username": "Huou Ho",
+      "password": "12345678",
+      "id": 19
+    },
+    {
+      "username": "Huou Ho",
+      "password": "12345678",
+      "id": 20
     }
   ],
   "blog": [
@@ -122,19 +162,8 @@
   "comments": [
     {
       "id": 1,
-      "id_author": 1,
-      "content": "",
-      "datetime": ""
-    },
-    {
-      "id": 2,
-      "id_author": 1,
-      "content": "",
-      "datetime": ""
-    },
-    {
-      "id": 3,
-      "id_author": 1,
+      "blog_id": 1,
+      "author_id": 1,
       "content": "",
       "datetime": ""
     }
@@ -142,6 +171,7 @@
   "like": [
     {
       "id": 1,
+      "id_blog": 1,
       "id_author": 1,
       "total": 0,
       "datetime": ""

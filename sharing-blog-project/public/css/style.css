@@ -246,6 +246,9 @@ header .intro-text {
 	text-align: center;
 	color:chocolate;
 }
+#comments {
+	text-align: left;
+}
 a:hover {
 	cursor: pointer;
 }

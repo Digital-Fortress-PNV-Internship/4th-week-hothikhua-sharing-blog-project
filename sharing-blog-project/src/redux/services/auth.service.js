@@ -33,5 +33,5 @@ const logout = () => {
 export default {
     register,
     login,
-    logout,
+    logout
 };

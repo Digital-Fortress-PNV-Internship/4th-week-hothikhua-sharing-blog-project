@@ -6,11 +6,11 @@ import {
     LOGIN_SUCCESS,
     LOGIN_FAIL,
     LOGOUT,
-    SET_MESSAGE
+    SET_MESSAGE,
 } from "./types";
 
  import AuthService from "../services/auth.service";
-// import authService  from "../services/auth.service";
+
 
 export const register = (fname, lname, username, email, password) => (dispatch) => {
     return AuthService.register(fname, lname, username, email, password).then (
@@ -86,3 +86,5 @@ export const login = (username, password) => (dispatch) => {
       type: LOGOUT,
     });
   };
+
+ 

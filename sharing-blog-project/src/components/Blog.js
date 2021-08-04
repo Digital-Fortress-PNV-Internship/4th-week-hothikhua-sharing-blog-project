@@ -13,7 +13,6 @@ const Blog = ({blog, setPage}) =>{
                         <h3></h3>
                         <h4>BY:{blog.author} - <i class="fa fa-calendar">{blog.date}</i> - <i class="fa fa-eye">30</i></h4>
                         <p>{blog.description}</p>
-                        {/* <button class="btn btn-info" onClick={() => setPage(blog.id)}>READ MORE</button> */}
                        <Link to={`/blog/${blog.id}`}><button class="btn btn-info" >READ MORE</button></Link>
                     </div>
                 </div>

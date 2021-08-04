@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Redirect } from 'react-router-dom';
+import { Redirect, Link } from 'react-router-dom';
 
 import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
@@ -8,7 +8,6 @@ import CheckButton from "react-validation/build/button";
 
 import { login } from "../redux/actions/auth";
 
-import Home from "../pages/home/index"
 
 const required = (value) => {
   if (!value) {
@@ -119,6 +118,7 @@ const Login = (props) => {
             </div>
           )}
           <CheckButton style={{ display: "none" }} ref={checkBtn} />
+          <Link to="/register">Register</Link>
         </Form>
       </div>
     </div>
