@@ -3,7 +3,7 @@ import Slider from '../../components/Slider';
 import About from '../about/index'
 import IndexBlog from '../blog/index'
 
-function index(props) {
+function index() {
     return (
         <>
             <Slider/>

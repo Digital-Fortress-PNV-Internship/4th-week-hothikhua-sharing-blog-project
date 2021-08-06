@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import { Link, Redirect } from "react-router-dom";
 import { useSelector } from "react-redux";
-
+import {Image} from 'react-bootstrap'
 const Header = ({logOut}) => {
 
     const { user: currentUser } = useSelector((state) => state.auth);
 
-    let [page, setPage] = useState("null");
+    let [page] = useState("null");
 
     if (!currentUser) {
         return <Redirect to="/login" />;
@@ -29,7 +29,7 @@ const Header = ({logOut}) => {
                     <span className='icon-bar'></span>{' '}
                 </button>
                 
-                <img src="images/Khua_Blog_Logo2.png" style={{ height: '80px',  marginLeft: '20px' }} />
+                <Image src="images/Khua_Blog_Logo2.png" style={{ height: '80px',  marginLeft: '20px' }} />
                 
                 </div>
 
@@ -39,7 +39,7 @@ const Header = ({logOut}) => {
                 >
                 <ul className='nav navbar-nav navbar-right'>
                     <li>
-                        <Link  to="/">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
                     <a href='#about' className='page-scroll'>
@@ -54,7 +54,7 @@ const Header = ({logOut}) => {
                     <li>
                         <Link  to="/contact">Contact</Link>
                     </li>  
-                    { page != "null" ?
+                    { page !== "null" ?
                      <>
                         <li>
                             <Link to="/register">Register</Link>
@@ -64,9 +64,9 @@ const Header = ({logOut}) => {
                         </li> 
                      </> 
                      : < > 
-                            <li><a><i class="fa fa-user-circle-o"> {currentUser.username}</i></a></li>
+                            <li><i className="fa fa-user-circle-o"> {currentUser.username}</i></li>
                             <li>
-                                <a  to="/logout" onClick={logOut}>Logout</a>
+                                <Link  to="/logout" onClick={logOut}>Logout</Link>
                             </li> 
                         </>        
                      }

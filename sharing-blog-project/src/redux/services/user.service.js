@@ -3,30 +3,23 @@ import authHeader from "./auth-header";
 
 const API_URL = "http://localhost:4000/";
 
-const getBlog = () => {
+export const getBlog = () => {
     return axios.get(API_URL + "blog", {headers: authHeader()});
 };
 
-const getComment = () =>{
+export const getComment = () =>{
     return axios.get(API_URL + "comments", {headers: authHeader()});
 }
 
-const getUser = () =>{
+export const getUser = () =>{
     return axios.get(API_URL + "users", {headers: authHeader()});
 }
 
-const getLike = () =>{
+export const getLike = () =>{
     return axios.get(API_URL + "like", {headers: authHeader()});
 }
 
-const getView = () =>{
+export const getView = () =>{
     return axios.get(API_URL + "view", {headers: authHeader()});
 }
 
-export default {
-    getBlog,
-    getComment,
-    getUser,
-    getLike,
-    getView,
-};

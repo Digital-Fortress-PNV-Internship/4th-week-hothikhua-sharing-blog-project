@@ -8,12 +8,14 @@ import {
     LOGOUT,
     SET_MESSAGE,
 } from "./types";
+import {register,
+      login,
+      logout} from "../services/auth.service";
+//  import AuthService from "../services/auth.service";
 
- import AuthService from "../services/auth.service";
 
-
-export const register = (fname, lname, username, email, password) => (dispatch) => {
-    return AuthService.register(fname, lname, username, email, password).then (
+export const registers = (fname, lname, username, email, password) => (dispatch) => {
+    return register(fname, lname, username, email, password).then (
         (response)=>{
             dispatch({
                 type: REGISTER_SUCCESS,
@@ -47,8 +49,8 @@ export const register = (fname, lname, username, email, password) => (dispatch) 
     );
 };
 
-export const login = (username, password) => (dispatch) => {
-    return AuthService.login(username, password).then(
+export const logins = (username, password) => (dispatch) => {
+    return login(username, password).then(
       (data) => {
         dispatch({
           type: LOGIN_SUCCESS,
@@ -79,8 +81,8 @@ export const login = (username, password) => (dispatch) => {
     );
   };
   
-  export const logout = () => (dispatch) => {
-    AuthService.logout();
+  export const logouts = () => (dispatch) => {
+    logout();
   
     dispatch({
       type: LOGOUT,

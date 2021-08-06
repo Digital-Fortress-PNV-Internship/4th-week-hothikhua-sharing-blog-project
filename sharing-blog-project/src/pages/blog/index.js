@@ -1,7 +1,6 @@
-import React , { useState } from 'react';
+import React  from 'react';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
 import Blog from '../../components/Blog';
-import BlogDetail from '../../components/BlogDetail';
 
 const queryClient = new QueryClient()
 
@@ -11,12 +10,12 @@ const fetchBlog = async () => {
   }
 
 const IndexBlog = () =>{
-    let [page, setPage] = useState('null');
+    
     const { data, status } = useQuery('blog', fetchBlog);
     console.log(data);
     return (
         <div id="blog">
-            <h2><i class="fa fa-heart"></i> Our Stories</h2>
+            <h2><i className="fa fa-heart"></i> Our Stories</h2>
             <hr/>
             <div className='container'>
                 <div className="row">
@@ -30,12 +29,9 @@ const IndexBlog = () =>{
                 </div>
                 {status === 'success' && (
                     <div className="row">
-                    { data.map(blog => <Blog key={blog.id} blog={blog} setPage={setPage}/> ) }
+                    { data.map(blog => <Blog key={blog.id} blog={blog}/> ) }
                     </div>
                 )} 
-                <div>
-                    { page === 'null' ? null : <BlogDetail page= {page} /> }
-                </div>
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Container,Button, Row, Col} from 'react-bootstrap';
-function index(props) {
+
+function index() {
     return (
         <div id='about'>
         <div className='container'>

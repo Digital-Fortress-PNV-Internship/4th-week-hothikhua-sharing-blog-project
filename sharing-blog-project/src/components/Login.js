@@ -6,7 +6,7 @@ import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
 
-import { login } from "../redux/actions/auth";
+import { logins } from "../redux/actions/auth";
 
 
 const required = (value) => {
@@ -50,7 +50,7 @@ const Login = (props) => {
     form.current.validateAll();
 
     if (checkBtn.current.context._errors.length === 0) {
-      dispatch(login(username, password))
+      dispatch(logins(username, password))
         .then(() => {
           props.history.push("/");
           window.location.reload();
@@ -76,7 +76,7 @@ const Login = (props) => {
           className="profile-img-card"
         />
 
-        <Form onSubmit={handleLogin} ref={form}>
+        <Form  onSubmit={handleLogin} ref={form}>
           <div className="form-group">
             <label htmlFor="username">Username</label>
             <Input

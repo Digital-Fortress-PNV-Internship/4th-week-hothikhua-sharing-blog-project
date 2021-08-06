@@ -6,7 +6,7 @@ import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
 import { isEmail } from "validator";
 
-import {register} from '../redux/actions/auth';
+import {registers} from '../redux/actions/auth';
 import IndexLogin from '../pages/login';
 
 const required = (value) => {
@@ -117,7 +117,7 @@ const Register = () => {
       form.current.validateAll();
   
       if (checkBtn.current.context._errors.length === 0) {
-        dispatch(register(fname, lname, username, email, password))
+        dispatch(registers(fname, lname, username, email, password))
           .then(() => {
             setSuccessful(true);
           })

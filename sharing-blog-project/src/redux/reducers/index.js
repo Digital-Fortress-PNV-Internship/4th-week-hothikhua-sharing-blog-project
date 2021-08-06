@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
-import auth from "./auth";
-import message from "./message";
-import comment from "./comment"
+import Message from "./message";
+import Comment from "./comment"
+import Khua from "./auth";
 
 export default combineReducers({
-  auth,
-  message,
-  comment
+  auth:Khua,
+  message: Message,
+  comment: Comment
 });

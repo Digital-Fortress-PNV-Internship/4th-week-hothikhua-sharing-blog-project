@@ -249,6 +249,9 @@ header .intro-text {
 #comments {
 	text-align: left;
 }
+#comments .form-group button{
+	width: 10%;
+}
 a:hover {
 	cursor: pointer;
 }

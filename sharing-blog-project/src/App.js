@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useCallback } from "react";
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import React, {  useEffect, useCallback } from "react";
+import { Router , Switch, Route} from "react-router-dom";
 
 import './App.css';
 
@@ -12,7 +12,7 @@ import IndexContact from './pages/contact';
 import IndexLogin from "./pages/login";
 import IndexRegister from './pages/register';
 
-import { logout } from "./redux/actions/auth";
+import { logouts } from "./redux/actions/auth";
 import {clearMessage} from "./redux/actions/message";
 
 import { history } from "./redux/helpers/history";
@@ -38,7 +38,7 @@ const App = () =>{
   }, [dispatch]);
 
   const logOut = useCallback(() => {
-    dispatch(logout());
+    dispatch(logouts());
   }, [dispatch]);
 
   useEffect(() => {

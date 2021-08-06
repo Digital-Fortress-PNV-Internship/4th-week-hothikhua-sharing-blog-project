@@ -1,6 +1,6 @@
 import React from 'react';
 
-function IndexContact(props) {
+function IndexContact() {
     return (
         <div>
             Hihi

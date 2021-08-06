@@ -23,108 +23,172 @@
       "email": "huou.ho22@student.passerellesnumeriques.org",
       "password": "12345678",
       "id": 3
+    },
+    {
+      "fname": "3",
+      "lname": "Khua Ho",
+      "username": "Cau chuyen rat xuc dong",
+      "email": "",
+      "id": 4
+    },
+    {
+      "fname": "2",
+      "lname": "",
+      "username": "jfgjhj",
+      "email": "",
+      "id": 5
+    },
+    {
+      "fname": "2",
+      "lname": "",
+      "username": "hdfhg",
+      "email": "",
+      "id": 6
+    },
+    {
+      "fname": "Diem",
+      "lname": "Nguyen",
+      "username": "Diem Nguyen",
+      "email": "diem.nguyen@student.passerellesnumeriques.org",
+      "password": "12345678",
+      "id": 7
     }
   ],
   "login": [
     {
+      "id": 1,
       "username": "Huou Ho",
-      "password": "12345678",
-      "id": 1
+      "password": "12345678"
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 2
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 3
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 4
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 5
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 6
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 7
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 8
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 9
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 10
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 11
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 12
     },
     {
-      "username": "Khua",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 13
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 14
     },
     {
-      "username": "Huou Ho",
+      "username": "Khua Ho",
       "password": "12345678",
       "id": 15
     },
     {
-      "username": "Huou Ho",
+      "username": "Diem Nguyen",
       "password": "12345678",
       "id": 16
     },
     {
-      "username": "Huou Ho",
+      "username": "Diem Nguyen",
       "password": "12345678",
       "id": 17
     },
     {
-      "username": "Huou Ho",
+      "username": "Diem Nguyen",
       "password": "12345678",
       "id": 18
     },
     {
-      "username": "Huou Ho",
+      "username": "Diem Nguyen",
       "password": "12345678",
       "id": 19
     },
     {
-      "username": "Huou Ho",
+      "username": "Diem Nguyen",
       "password": "12345678",
       "id": 20
+    },
+    {
+      "username": "Diem Nguyen",
+      "password": "12345678",
+      "id": 21
+    },
+    {
+      "username": "Diem Nguyen",
+      "password": "12345678",
+      "id": 22
+    },
+    {
+      "username": "Diem Nguyen",
+      "password": "12345678",
+      "id": 23
+    },
+    {
+      "username": "Diem Nguyen",
+      "password": "12345678",
+      "id": 24
+    },
+    {
+      "username": "Diem Nguyen",
+      "password": "12345678",
+      "id": 25
+    },
+    {
+      "username": "Diem Nguyen",
+      "password": "12345678",
+      "id": 26
+    },
+    {
+      "username": "Diem Nguyen",
+      "password": "12345678",
+      "id": 27
     }
   ],
   "blog": [
@@ -163,9 +227,44 @@
     {
       "id": 1,
       "blog_id": 1,
-      "author_id": 1,
+      "username": "Khua",
       "content": "",
       "datetime": ""
+    },
+    {
+      "blog_id": "3",
+      "username": "KhuaHo",
+      "content": "Hello everyone, this is the first comment",
+      "datetime": "2021-8-5",
+      "id": 2
+    },
+    {
+      "blog_id": "1",
+      "username": "KhuaHo",
+      "content": "Hehe, mootj ngay moi da den",
+      "datetime": "2021-8-5",
+      "id": 3
+    },
+    {
+      "blog_id": "3",
+      "username": "Khua Ho",
+      "content": "Toi rat vui",
+      "datetime": "2021-8-5",
+      "id": 4
+    },
+    {
+      "blog_id": "2",
+      "username": "Khua Ho",
+      "content": "Balalaabhd hdsdfsg",
+      "datetime": "2021-8-5",
+      "id": 5
+    },
+    {
+      "blog_id": "1",
+      "username": "Diem Nguyen",
+      "content": "Khưa đã comment",
+      "datetime": "2021-8-6",
+      "id": 6
     }
   ],
   "like": [
